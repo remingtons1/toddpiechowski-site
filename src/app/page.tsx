@@ -122,14 +122,14 @@ export default function Home() {
           <h2 className="font-sans text-xs font-medium tracking-widest text-[#999] mb-8">WORK</h2>
 
           <div className="space-y-10">
-            <div>
-              <h3 className="text-xl font-medium mb-2">Instant Checkout</h3>
+            <a href="https://instantcheckout.ai" target="_blank" rel="noopener noreferrer" className="block group">
+              <h3 className="text-xl font-medium mb-2 group-hover:underline">Instant Checkout ↗</h3>
               <p className="text-[#555] mb-2">
                 The agentic commerce playbook. How AI agents shop, what brands need to do,
                 and where this is all heading.
               </p>
               <span className="font-sans text-xs text-[#999]">Book</span>
-            </div>
+            </a>
 
             <div>
               <h3 className="text-xl font-medium mb-2">Horizon Shelf</h3>
@@ -140,6 +140,15 @@ export default function Home() {
               </p>
               <span className="font-sans text-xs text-[#999]">Infrastructure · In Production</span>
             </div>
+
+            <a href="https://trackbuy.ai" target="_blank" rel="noopener noreferrer" className="block group">
+              <h3 className="text-xl font-medium mb-2 group-hover:underline">TrackBuy ↗</h3>
+              <p className="text-[#555] mb-2">
+                AI shopping agent analytics. Track how AI agents discover, evaluate,
+                and recommend your products across ChatGPT, Perplexity, and Google AI Mode.
+              </p>
+              <span className="font-sans text-xs text-[#999]">SaaS · Coming Soon</span>
+            </a>
 
             <a href="https://dealdraft.online" target="_blank" rel="noopener noreferrer" className="block group">
               <h3 className="text-xl font-medium mb-2 group-hover:underline">DealDraft ↗</h3>
