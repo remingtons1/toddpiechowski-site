@@ -165,7 +165,7 @@ export default async function BlogPost({ params }: Props) {
           </Link>
           <div className="flex gap-5 text-sm text-[#666]">
             <Link href="/blog" className="hover:text-[#111] transition">Blog</Link>
-            <a href="https://twitter.com/toddpiechowski" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Twitter</a>
+            <a href="https://book.toddpiechowski.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Book</a>
           </div>
         </div>
       </header>
@@ -201,7 +201,7 @@ export default async function BlogPost({ params }: Props) {
         <div className="mx-auto max-w-2xl flex items-center justify-between text-sm text-[#999]">
           <Link href="/blog" className="hover:text-[#111] transition">← All posts</Link>
           <div className="flex gap-5">
-            <a href="https://twitter.com/toddpiechowski" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Twitter</a>
+            <a href="https://book.toddpiechowski.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Book</a>
             <a href="https://linkedin.com/in/toddpie" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">LinkedIn</a>
           </div>
         </div>
