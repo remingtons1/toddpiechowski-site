@@ -435,7 +435,7 @@ That gap is the opportunity.
   {
     slug: "from-seo-to-gxo",
     title: "From SEO to GXO: The Next Optimization Game",
-    date: "2026-02-21",
+    date: "2026-02-13",
     tags: ["GXO", "SEO", "agentic commerce", "strategy"],
     excerpt: "SEO optimized for crawlers. GXO optimizes for agents. Here's what changes.",
     content: `
@@ -507,7 +507,7 @@ AI agents are the next platform. Optimize accordingly.
   {
     slug: "how-chatgpt-recommends-products",
     title: "How ChatGPT Recommends Products (And How to Show Up)",
-    date: "2026-02-24",
+    date: "2026-02-16",
     tags: ["ChatGPT", "AI shopping", "visibility"],
     excerpt: "Inside the mechanics of how ChatGPT finds, evaluates, and recommends products to users.",
     content: `
@@ -581,7 +581,7 @@ ChatGPT isn't a black box. It's pulling from sources you can influence. Start in
   {
     slug: "what-is-agentic-commerce",
     title: "What Is Agentic Commerce? A Simple Explanation",
-    date: "2026-02-18",
+    date: "2026-02-11",
     tags: ["agentic commerce", "fundamentals", "AI shopping"],
     excerpt: "A clear definition of agentic commerce and why every brand needs to understand it.",
     content: `
@@ -643,7 +643,7 @@ Agentic commerce is the next era of retail. It's already starting.
   {
     slug: "ai-agents-are-already-shopping",
     title: "AI Agents Are Already Shopping",
-    date: "2026-02-17",
+    date: "2026-02-10",
     tags: ["agentic commerce", "AI shopping", "Google AI Mode"],
     excerpt: "This isn't a prediction. It's happening right now. Here's what brands need to understand.",
     content: `
