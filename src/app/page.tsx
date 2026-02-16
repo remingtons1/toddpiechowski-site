@@ -162,8 +162,8 @@ export default function Home() {
             <a href="https://blankpop.online" target="_blank" rel="noopener noreferrer" className="block group">
               <h3 className="text-xl font-medium mb-2 group-hover:underline">BlankPop ↗</h3>
               <p className="text-[#555] mb-2">
-                Custom ChatGPT-powered app. Example of branded AI experiences
-                I build for clients.
+                Commerce-driven ChatGPT app for print-on-demand. Users design custom products
+                through conversation, then purchase directly. AI-native shopping in action.
               </p>
               <span className="font-sans text-xs text-[#999]">Custom GPT · 2 days</span>
             </a>
