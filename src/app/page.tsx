@@ -9,7 +9,7 @@ export default function Home() {
           <span className="font-sans text-sm font-medium tracking-wide">TODD PIECHOWSKI</span>
           <div className="flex gap-5 text-sm text-[#666]">
             <Link href="/blog" className="hover:text-[#111] transition">Blog</Link>
-            <a href="https://book.toddpiechowski.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Read My Book</a>
+            <a href="https://instantcheckout.ai" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Read My Book</a>
             <a href="https://linkedin.com/in/toddpie" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">LinkedIn</a>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default function Home() {
         <div className="mx-auto max-w-2xl flex items-center justify-between text-sm text-[#999]">
           <span>© {new Date().getFullYear()}</span>
           <div className="flex gap-5">
-            <a href="https://book.toddpiechowski.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Book</a>
+            <a href="https://instantcheckout.ai" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">Book</a>
             <a href="https://linkedin.com/in/toddpie" target="_blank" rel="noopener noreferrer" className="hover:text-[#111] transition">LinkedIn</a>
           </div>
         </div>
