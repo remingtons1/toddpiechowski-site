@@ -1,8 +1,40 @@
 import Link from "next/link";
 
 export default function Home() {
+  // JSON-LD structured data for SEO
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Todd Piechowski",
+    url: "https://toddpiechowski.com",
+    jobTitle: "Agentic Commerce Expert",
+    worksFor: {
+      "@type": "Organization",
+      name: "Envision Horizons",
+      url: "https://envisionhorizons.com",
+    },
+    description:
+      "Author of Instant Checkout. Building Horizon Shelf, the AI commerce gateway. Writing about agentic commerce.",
+    sameAs: [
+      "https://linkedin.com/in/toddpie",
+      "https://instantcheckout.ai",
+    ],
+    knowsAbout: [
+      "Agentic Commerce",
+      "AI Shopping Agents",
+      "E-commerce",
+      "Product Data Optimization",
+      "GXO",
+      "AEO",
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-[#fafafa] text-[#111] font-serif">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Header */}
       <header className="border-b border-[#e5e5e5] px-6 py-6">
         <div className="mx-auto max-w-2xl flex items-center justify-between">

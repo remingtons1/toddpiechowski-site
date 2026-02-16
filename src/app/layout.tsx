@@ -13,14 +13,55 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Todd Piechowski | I'll Build Your App In A Week",
+  metadataBase: new URL("https://toddpiechowski.com"),
+  title: {
+    default: "Todd Piechowski | Agentic Commerce Expert",
+    template: "%s | Todd Piechowski",
+  },
   description:
-    "AI-powered development for MVPs, internal tools, and automations. Fixed price, shipped in days.",
+    "I write about agentic commerce. I build the infrastructure for it. Author of Instant Checkout, the book on AI shopping agents.",
+  keywords: [
+    "agentic commerce",
+    "AI shopping",
+    "AI agents",
+    "e-commerce",
+    "GXO",
+    "AEO",
+    "product data optimization",
+    "AI visibility",
+    "agent-ready commerce",
+  ],
+  authors: [{ name: "Todd Piechowski", url: "https://toddpiechowski.com" }],
+  creator: "Todd Piechowski",
   openGraph: {
-    title: "Todd Piechowski | I'll Build Your App In A Week",
+    title: "Todd Piechowski | Agentic Commerce Expert",
     description:
-      "AI-powered development for MVPs, internal tools, and automations. Fixed price, shipped in days.",
+      "I write about agentic commerce. I build the infrastructure for it. Author of Instant Checkout.",
+    url: "https://toddpiechowski.com",
+    siteName: "Todd Piechowski",
+    locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Todd Piechowski | Agentic Commerce Expert",
+    description:
+      "I write about agentic commerce. I build the infrastructure for it. Author of Instant Checkout.",
+    creator: "@toddpiechowski",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://toddpiechowski.com",
   },
 };
 

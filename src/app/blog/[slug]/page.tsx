@@ -155,8 +155,36 @@ export default async function BlogPost({ params }: Props) {
     return elements;
   };
 
+  // JSON-LD structured data for SEO
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    author: {
+      "@type": "Person",
+      name: "Todd Piechowski",
+      url: "https://toddpiechowski.com",
+    },
+    publisher: {
+      "@type": "Person",
+      name: "Todd Piechowski",
+    },
+    datePublished: post.date,
+    dateModified: post.date,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://toddpiechowski.com/blog/${post.slug}`,
+    },
+    keywords: post.tags?.join(", "),
+  };
+
   return (
     <div className="min-h-screen bg-[#fafafa] text-[#111] font-serif">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Header */}
       <header className="border-b border-[#e5e5e5] px-6 py-6">
         <div className="mx-auto max-w-2xl flex items-center justify-between">
