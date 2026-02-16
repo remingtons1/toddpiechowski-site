@@ -159,7 +159,7 @@ export default function Home() {
               Source code is yours.
             </p>
             <a
-              href="https://cal.com/toddpiechowski/build"
+              href="https://calendar.app.google/8iLoMGuvMwUGdCFx7"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans inline-block px-5 py-2.5 bg-[#111] text-white text-sm rounded hover:bg-[#333] transition"
