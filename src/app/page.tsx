@@ -177,40 +177,45 @@ export default function Home() {
           <h2 className="font-sans text-xs font-medium tracking-widest text-[#999] mb-6">WORK WITH ME</h2>
           <div className="space-y-5 text-lg text-[#333] leading-relaxed mb-8">
             <p>
-              I take on a limited number of projects. Two kinds of work:
-            </p>
-            <p>
-              <strong>Agentic commerce consulting.</strong> AI visibility audits, structured data
-              strategy, protocol implementation. I help brands become findable and buyable by AI agents.
-            </p>
-            <p>
-              <strong>Fast builds.</strong> MVPs, internal tools, AI automations, dashboards.
-              I use AI-powered development to ship in days what used to take weeks. Fixed price,
-              you own the code.
+              Two ways to work together:
             </p>
           </div>
 
-          <div className="bg-white border border-[#e5e5e5] rounded-lg p-6 mb-6">
-            <div className="flex flex-wrap justify-between items-baseline mb-4">
-              <span className="font-sans text-sm font-medium">Most projects</span>
-              <span className="font-sans text-2xl font-medium">$2,500 – $5,000</span>
+          <div className="space-y-4">
+            <div className="bg-white border border-[#e5e5e5] rounded-lg p-6">
+              <h3 className="text-xl font-medium mb-3">Agentic Commerce Consulting</h3>
+              <p className="text-[#555] mb-4">
+                AI visibility audits, structured data strategy, protocol implementation.
+                I help brands become findable and buyable by AI shopping agents.
+              </p>
+              <a
+                href="mailto:todd.piechowski@gmail.com"
+                className="font-sans inline-block px-5 py-2.5 border border-[#ddd] text-sm rounded hover:border-[#999] transition"
+              >
+                Get in touch
+              </a>
             </div>
-            <p className="text-[#555] text-sm mb-4">
-              30-min call to scope it. Fixed quote within 24 hours. Shipped in 5-7 days.
-              Source code is yours.
-            </p>
-            <a
-              href="https://calendar.app.google/8iLoMGuvMwUGdCFx7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-sans inline-block px-5 py-2.5 bg-[#111] text-white text-sm rounded hover:bg-[#333] transition"
-            >
-              Book a call
-            </a>
+
+            <div className="bg-white border border-[#e5e5e5] rounded-lg p-6">
+              <h3 className="text-xl font-medium mb-3">AI Agent Builds</h3>
+              <p className="text-[#555] mb-4">
+                Need AI agent workflows for your e-commerce operation? AgentSell builds custom
+                agent systems — ops automation, ad workflows, internal tools. Fixed price.
+                Shipped in days.
+              </p>
+              <a
+                href="https://agentsell.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans inline-block px-5 py-2.5 bg-[#111] text-white text-sm rounded hover:bg-[#333] transition"
+              >
+                Visit AgentSell →
+              </a>
+            </div>
           </div>
 
-          <p className="text-sm text-[#999]">
-            Or email me: todd.piechowski@gmail.com
+          <p className="text-sm text-[#999] mt-6">
+            Or email me directly: todd.piechowski@gmail.com
           </p>
         </div>
       </section>
